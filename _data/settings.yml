@@ -39,4 +39,4 @@ google-analytics: UA-157799052-1 # Add your identifier. For example UA-99631805-
 
 #-------------------------------
 # Newsletter
-mailchimp: https://resultadotech.us4.list-manage.com/subscribe/post?u=0b7bd9c6ef4f77aa0ccc9692c&amp;id=3390058a1a # Add your MailChimp form identifier
+mailchimp: resultadotech.us4.list-manage.com/subscribe/post?u=0b7bd9c6ef4f77aa0ccc9692c&amp;id=3390058a1a # Add your MailChimp form identifier
