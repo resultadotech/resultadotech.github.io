@@ -2,7 +2,7 @@
 layout: post
 title:  O Zen do Python
 date:   2020-02-03 15:01:35 +0300
-image:  05.jpg
+image:  03.jpg
 tags:   Programação
 ---
 
