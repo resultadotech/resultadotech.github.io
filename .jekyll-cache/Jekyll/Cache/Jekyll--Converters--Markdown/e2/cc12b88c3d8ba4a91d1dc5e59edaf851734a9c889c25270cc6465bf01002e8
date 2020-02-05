@@ -1,0 +1,31 @@
+I"k<p>Se você desenvolve software, sabe que existem vários caminhos para chegar à solução. O <a href="https://www.python.org/dev/peps/pep-0020/">Zen do Python</a> é composto por 19 aforismos que pode te ajudar a criar um código mais limpo, legível e manutenível.</p>
+
+<p>The Zen of Python, por Tim Peters:</p>
+
+<ul>
+  <li>Bonito é melhor que feio.</li>
+  <li>Explícito é melhor que implícito.</li>
+  <li>Simples é melhor que complexo.</li>
+  <li>Complexo é melhor que complicado.</li>
+  <li>Linear é melhor do que aninhado.</li>
+  <li>Esparso é melhor que denso.</li>
+  <li>Legibilidade conta.</li>
+  <li>Casos especiais não são especiais o bastante para quebrar as regras.</li>
+  <li>Ainda que praticidade vença a pureza.</li>
+  <li>Erros nunca devem passar silenciosamente.</li>
+  <li>A menos que sejam explicitamente silenciados.</li>
+  <li>Diante da ambiguidade, recuse a tentação de adivinhar.</li>
+  <li>Deveria haver um - e preferencialmente só um - modo óbvio para fazer algo.</li>
+  <li>Embora esse modo possa não ser óbvio a princípio a menos que você seja holandês.</li>
+  <li>Agora é melhor que nunca.</li>
+  <li>Embora nunca frequentemente seja melhor que já.</li>
+  <li>Se a implementação é difícil de explicar, é uma má ideia.</li>
+  <li>Se a implementação é fácil de explicar, pode ser uma boa ideia.</li>
+  <li>Namespaces são uma grande ideia - vamos ter mais dessas!</li>
+</ul>
+
+<p>Pode-se vê-lo através de um easter egg do Python pelo comando:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; import this
+</code></pre></div></div>
+:ET
