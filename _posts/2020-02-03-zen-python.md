@@ -3,7 +3,7 @@ layout: post
 title:  O Zen do Python
 date:   2020-02-03 15:01:35 +0300
 image:  03.jpg
-tags:   Programação
+tags:   develop
 ---
 
 Se você desenvolve software, sabe que existem vários caminhos para chegar à solução. O [Zen do Python](https://www.python.org/dev/peps/pep-0020/) é composto por 19 aforismos que pode te ajudar a criar um código mais limpo, legível e manutenível.
