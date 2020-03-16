@@ -12,4 +12,4 @@ tags:   news
 
 Essa decisão foi tomada para ele se dedicar mais tempo às prioridades filantrópicas, incluindo saúde e desenvolvimento globais, educação e seu crescente envolvimento no enfrentamento das mudanças climáticas.
 
-Com relação à Microsoft, ele continuará envolvido com Satya Nadella, CEO da Microsoft) e a liderança técnica para ajudar a moldar a visão e atingir os objetivos ambiciosos da empresa.
+Com relação à Microsoft, ele continuará envolvido com Satya Nadella (CEO da Microsoft) e a liderança técnica para ajudar a moldar a visão e atingir os objetivos ambiciosos da empresa.
