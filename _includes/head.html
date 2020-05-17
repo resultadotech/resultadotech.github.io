@@ -1,119 +1,36 @@
+{% if page.title %}
+    {% capture title %} {{ page.title }} - {{ site.title }} {% endcapture %}
+{% else %}
+    {% assign title = site.title %}
+{% endif %}
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>{{ title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta name="author" content="Padmoney" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="{{ title  }}" />
+<meta property="og:image" content="/assets/img/og-image.png" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:locale" content="{{ page.lang | default: site.lang | default: "en" }}" />
+<meta property="og:site_name" content="{{ title }}" />
+<meta property="og:description" content="{{ page.description | default: site.description }}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="/assets/css/main.css?{{site.time | date: '%s'}}">
 
-  <title>{% if page.title %}{{ page.title }} - {% endif %} {{ site.data.settings.title }}</title>
-  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
+<!-- Ionicons -->
+<link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-  <!-- Ionicons -->
-  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
-
-  <style>
-  {% capture include_to_scssify %}
-    {% include main.scss %}
-  {% endcapture %}
-  {{ include_to_scssify | scssify }}
-
-  {% if page.name == 'contato.md' %}
-.speaker-form {
-  width: 80%;
-  padding: 50px;
-  margin: 0 auto 5em auto;
-}
-.form-row {
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.form-row input[type='text'],
-.form-row input[type='email'] {
-  background-color: #FFFFFF;
-  border: 1px solid #D6D9DC;
-  border-radius: 3px;
-  width: 100%;
-  padding: 7px;
-  font-size: 14px;
-}
-.form-row label {
-  margin-bottom: 15px;
-}
-.form-row input[type='text']:invalid,
-.form-row input[type='email']:invalid {
-  border: 1px solid #D55C5F;
-  color: #D55C5F;
-  box-shadow: none; /* Remove default red glow in Firefox */
-}
-.form-row textarea {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
-
-  background-color: #FFFFFF;
-  border: 1px solid #D6D9DC;
-  border-radius: 3px;
-
-  min-height: 100px;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 7px;
-  resize: none;
-}
-.form-row button {
-  font-size: 16px;
-  font-weight: bold;
-
-  color: #FFFFFF;
-  background-color: #c83737;
-
-  border: none;
-  border-radius: 3px;
-
-  padding: 10px 40px;
-  cursor: pointer;
-}
-
-.form-row button:hover {
-  background-color: de8787#d35f5f;
-}
-
-.form-row button:active {
-  background-color: #de8787;
-}
-@media only screen and (min-width: 700px) {
-  .speaker-form-header,
-  .speaker-form {
-    width: 600px;
-  }
-  .form-row {
-    flex-direction: row;
-    align-items: flex-start; /* To avoid stretching */
-    margin-bottom: 20px;
-  }
-
-  .form-row textarea ,
-  .form-row input[type='text'],
-  .form-row input[type='email'] {
-    width: 250px;
-    height: initial;
-  }
-  .form-row label {
-    text-align: right;
-    width: 120px;
-    margin-top: 7px;
-    padding-right: 20px;
-  }
-  .form-row button {
-    margin-left: 120px;
-  }
-}
-  {% endif %}
-  </style>
+<script type="application/ld+json">
+    {
+        "@type": "WebPage",
+        "headline": "{{ title }}",
+        "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+        "description": "{{ page.description | default: site.description }}",
+        "@context": "http://schema.org"
+    }
+</script>
 </head>

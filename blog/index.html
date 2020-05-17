@@ -1,0 +1,17 @@
+---
+layout: default
+slug: blog
+title: Blog de Tecnologia
+header: Criando soluções através da tecnologia
+subtitle: Engenharia de software, segurança da informação, e muito mais
+---
+
+<section>
+    <div class="article_links">
+		{% for post in paginator.posts %}
+			{% include article-link.html %}
+		{% endfor %}
+    </div>
+</section>
+
+{% include pagination.html %}

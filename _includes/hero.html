@@ -1,23 +1,16 @@
-<!-- begin c-hero -->
-<div class="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col col-6 col-t-12 last-item">
-        <div class="hero__content">
-          <h1 class="hero__title">Tecnologia para você e sua empresa</h1>
-          <p class="hero__subtitle">Conteúdo sobre engenharia de software, segurança da informação, infraestrutura de TI, blockchain, e muito mais...</p>
-          <div class="hero__social">
-            <span class="hero__social-title">Siga-nos |</span>
-            {% include contact-link.html %}
-          </div>
-        </div>
-      </div>
-      <div class="col col-6 col-t-12">
-        <div class="hero__image">
-          <img src="{{site.baseurl}}/images/hero-1.jpg" alt="">
-        </div>
-      </div>
+{% if page.header %}
+    {% assign header = page.header %}
+{% elsif page.title %}
+    {% assign header = page.title %}
+{% else %}
+    {% assign header = site.header %}
+{% endif %}
+{% if page.subtitle %}
+    {% assign subtitle = page.subtitle %}
+{% endif %}
+<section class="hero">
+    <div>
+        <h1>{{ header | escape }}</h1>
+        <p>{{ subtitle | escape }}</p>
     </div>
-  </div>
-</div>
-<!-- end hero -->
+</section>

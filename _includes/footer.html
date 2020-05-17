@@ -1,14 +1,11 @@
-<!-- begin footer -->
-<footer class="footer">
-  <div class="container">
-
-    {% include subscribe.html %}
-    
-    {% include instagram.html %}
-
-    {% include contact-link.html %}
-
-    <div class="copyright">&copy; {{site.time | date: '%Y'}} <a href="/">{{ site.data.settings.title }}</a> - Todos os direitos reservados.</div>
-</div>
+<footer>
+    <ul class="media">
+        <li><a href="{{ site.data.settings.instagram }}"><i class="ion ion-logo-instagram"></i></a></li>
+        <li><a href="{{ site.data.settings.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
+        <li><a href="{{ site.data.settings.linkedin }}"><i class="ion ion-logo-linkedin"></i></a></li>
+    </ul>
+    <div class="copyright">&copy; {{ site.time | date: '%Y'}} <a href="/">{{ site.title }}</a> - Todos os direitos reservados.</div>
 </footer>
-<!-- end footer -->
+
+<script src="/assets/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/common.js"></script>

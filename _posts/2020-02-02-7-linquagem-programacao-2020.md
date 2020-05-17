@@ -3,6 +3,7 @@ layout: post
 title:  7 linguagens de programação para 2020
 date:   2020-02-02 15:01:35 +0300
 image:  02.jpg?1
+categories: [news]
 tags:   develop
 ---
 
