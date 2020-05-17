@@ -3,7 +3,7 @@ header {
   background: linear-gradient(rgba(69,23,113,0.92),rgba(69,23,113,0.92)),url(/assets/images/bg-home.jpg) center center no-repeat;
   background-size: auto, auto;
   background-size: cover;
-  min-height: 450px;
+  min-height: 350px;
   color: #fff;
 }
 header.blog {
@@ -17,10 +17,7 @@ header section {
 }
 
 header section.header_nav {
-  display: flex;
-  justify-content: space-between;
-  align-items:center;
-  align-content: center;
+  display: block;
 }
 
 header div.logo img {
@@ -31,7 +28,7 @@ header ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 header ul li {
   text-align: center;
@@ -49,12 +46,8 @@ header ul li a:hover {
   padding: 8px 8px 5px 8px;
 }
 
-section.hero {
-  min-height: 400px;
-}
-
 .hero h1 {
-  font-size: 4rem;
+  @include fluid-type($min_width, $max_width, 42px, 74px);
   line-height:1em;
   margin: 1.6rem 0;
 }
@@ -66,8 +59,15 @@ section.hero {
 
 @media only screen and (min-width: 700px) {
 
-  .hero h1 {
-    font-size: 5rem;
+  header section.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+  }
+
+  header ul {
+    justify-content: space-between;
   }
 
 }
