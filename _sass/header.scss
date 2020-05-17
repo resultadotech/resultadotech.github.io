@@ -1,6 +1,5 @@
 header {
   position: relative;
-  background: linear-gradient(rgba(26,26,26,0.92),rgba(26,26,26,0.92)),url(/assets/images/bg-home.jpg) center center no-repeat;
   background: linear-gradient(rgba(69,23,113,0.92),rgba(69,23,113,0.92)),url(/assets/images/bg-home.jpg) center center no-repeat;
   background-size: auto, auto;
   background-size: cover;
@@ -55,7 +54,7 @@ section.hero {
 }
 
 .hero h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height:1em;
   margin: 1.6rem 0;
 }
@@ -63,4 +62,12 @@ section.hero {
 .hero p {
   font-size:1.2rem;
   line-height:1.2em;
+}
+
+@media only screen and (min-width: 700px) {
+
+  .hero h1 {
+    font-size: 5rem;
+  }
+
 }
