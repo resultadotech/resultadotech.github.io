@@ -3,6 +3,7 @@ layout: post
 title:  Diferença entre Open Source e Software Livre
 date:   2020-03-05 07:01:35 -0300
 image:  06.jpg
+categories: [opensource]
 tags:   opensource
 ---
 

@@ -1,0 +1,29 @@
+footer {
+  background-color: $light-grey;
+  border-top: 1px solid $medium-grey;
+  color: $text;
+  position: relative;
+  padding: 2em 0 1em;
+  margin: 2em 0 0;
+}
+
+footer a {
+  color: $text;
+}
+footer a:hover {
+  color: $link-color;
+}
+
+.copyright {
+  text-align: center;
+}
+
+footer ul.media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul.media li {
+  margin: 1em 0.42em;
+}

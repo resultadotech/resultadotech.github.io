@@ -1,0 +1,66 @@
+header {
+  position: relative;
+  background: linear-gradient(rgba(26,26,26,0.92),rgba(26,26,26,0.92)),url(/assets/images/bg-home.jpg) center center no-repeat;
+  background: linear-gradient(rgba(69,23,113,0.92),rgba(69,23,113,0.92)),url(/assets/images/bg-home.jpg) center center no-repeat;
+  background-size: auto, auto;
+  background-size: cover;
+  min-height: 450px;
+  color: #fff;
+}
+header.blog {
+  background: linear-gradient(rgba(69,23,113,0.92),rgba(69,23,113,0.92)),url(/assets/images/bg-blog.jpg) center center no-repeat;
+}
+
+header section {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header section.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  align-content: center;
+}
+
+header div.logo img {
+  height: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header ul li {
+  text-align: center;
+}
+header ul li a {
+  color: #fff;
+  font-weight: 500;
+  margin: 0 0 0 1em;
+  padding: 8px;
+  text-decoration: none;
+}
+header ul li a:hover {
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  padding: 8px 8px 5px 8px;
+}
+
+section.hero {
+  min-height: 400px;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  line-height:1em;
+  margin: 1.6rem 0;
+}
+
+.hero p {
+  font-size:1.2rem;
+  line-height:1.2em;
+}

@@ -1,42 +1,14 @@
-#-------------------------------
-# General Site Settings
-title: Resultado Tech
-logo: resultado-tech.png # You can add own logo.
-description: Conteúdo e dicas sobre tecnologia (engenharia de software, infraestrutura, segurança da informação) para você e sua empresa
-
-
-#-------------------------------
-# Author Settings
-author:
-  name: Breno Martinusso
-  image: breno.jpg
-  bio: Empreendedor e programador
-
-
-#-------------------------------
 # Contact links
 twitter: https://twitter.com/resultadotech # Add your Twitter handle
 # facebook: https://facebook.com/resultadotech # Add your Facebook handle
 instagram: https://instagram.com/resultadotech # Add your Instagram handle
-linkedin: https://linkedin.com/company/resultadotech # Add your Instagram handle
-
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: resultadotech # add your shortname for Disqus Comment. For example mr-brown
-
-
-#-------------------------------
-# Instagram Feed
 instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
 instagram-profile: resultadotech # Add instagram username
+linkedin: https://linkedin.com/company/resultadotech # Add your Instagram handle
 
-
-#-------------------------------
 # Google Analytics
 google-analytics: UA-157799052-1 # Add your identifier. For example UA-99631805-1.
 
-
-#-------------------------------
+disqus-identifier: resultadotech # add your shortname for Disqus Comment. For example mr-brown
 # Newsletter
 mailchimp: resultadotech.us4.list-manage.com/subscribe/post?u=0b7bd9c6ef4f77aa0ccc9692c&amp;id=3390058a1a # Add your MailChimp form identifier

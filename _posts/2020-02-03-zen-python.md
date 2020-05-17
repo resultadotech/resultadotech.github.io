@@ -3,6 +3,7 @@ layout: post
 title:  O Zen do Python
 date:   2020-02-03 15:01:35 +0300
 image:  03.jpg
+categories: [develop]
 tags:   develop
 ---
 

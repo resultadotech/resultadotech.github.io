@@ -3,6 +3,7 @@ layout: post
 title:  "Conheça o Resultado Tech!"
 date:   2020-02-01 18:05:55 +0300
 image:  01.jpg
+categories: [news]
 tags:   resultado-tech
 ---
 

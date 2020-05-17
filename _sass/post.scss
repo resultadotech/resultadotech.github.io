@@ -1,0 +1,123 @@
+article h1  {
+  font-size: 3em;
+  line-height: 3.2rem;
+  letter-spacing: 0.5px;
+  padding: 1em 0 0.2em;
+}
+
+article p {
+  line-height: 1.62rem;
+  margin: 0.4em 0;
+}
+
+article h2  {
+  line-height: 2rem;
+  margin: 1.4em 0 0.6em;
+}
+article ul, article ol, article dd {
+  margin: 1em 1em 1em 2em;
+  line-height: 1.6em;
+}
+
+.article_links {
+  margin: 1em 0;
+}
+.article_link_wrapper {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.article_link_image {
+  width: 50%;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no_repeat;
+  background-color: #e6eef0;
+  text-decoration: none;
+  transition: all 0.35s;
+}
+.article_link_image::after {
+  content: "";
+  display: table;
+  width: 100%;
+  padding-bottom: 70%;
+}
+.article_link_content {
+  width: 60%;
+  padding: 50px;
+  margin-left: -10%;
+  z-index: 1;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.98);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.article_link_content h2 a {
+  color: $text;
+}
+.article_link_content h2 a:hover {
+  color: $link-color;
+}
+.article_link_content p {
+  color: $text;
+  font-size: 0.84em;
+  line-height: 1.2rem;
+  margin: 1em 0;
+}
+
+.article_link_content_meta {
+  color: $light-text;
+  font-size: 0.74em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-transform: uppercase;
+}
+.article_link_content_meta > div {
+  align-self: stretch;
+}
+
+.article_link_content_meta a {
+  color: $light-text;
+  text-transform: uppercase;
+}
+
+.article_link_content_meta a:hover {
+  color: $link-color;
+}
+
+.article_meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-transform: capitalize;
+  padding: 2em;
+}
+.article_meta > div {
+  align-self: stretch;
+}
+
+.article_time, .share_title {
+  font-size: 0.84rem;
+}
+
+.article_meta ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article_meta ul li {
+  margin: 0 0.2em;
+}
+
+.article_image {
+  margin: 2em 1em;
+}
+
+.article_image img {
+  width: 100%;
+}

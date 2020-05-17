@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contato
+header: Como podemos ajudar?
+subtitle: Você tem uma pergunta ou está interessado em trabalhar conosco? Preencha o formulário abaixo.
 permalink: /contato/
 image: contact.jpg
 ---

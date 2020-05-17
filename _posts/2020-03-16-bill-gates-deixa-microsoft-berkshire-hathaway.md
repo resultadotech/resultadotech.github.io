@@ -3,6 +3,7 @@ layout: post
 title:  Bill Gates deixa conselho da Microsoft e Berkshire Hathaway
 date:   2020-03-16 12:01:35 -0300
 image:  07.jpg
+categories: [news]
 tags:   news
 ---
 
