@@ -62,4 +62,10 @@ layout: default
         </div>
     </section>
 
+{% if site.data.settings.disqus-identifier %}
+    <section>
+{% include disqus-comments.html %}
+    </section>
+{% endif %}
+
 </article>
